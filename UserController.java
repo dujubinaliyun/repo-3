@@ -2,7 +2,7 @@
 public class UserController{
   @GetMapping("/hello")
   public String hello(){
-    System.out.println("UserController#hello()方法执行了");
+    System.out.println("UserController类的hello方法执行了");
     return "hello git!";
   }
 }
